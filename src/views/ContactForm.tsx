@@ -10,12 +10,7 @@ const ContactForm = () => {
     const form = event.currentTarget;
 
     emailjs
-      .sendForm(
-        "service_05ai46e",
-        "template_h95dc0s",
-        form,
-        "U8jg9I0efo0qENfgn"
-      )
+      .sendForm("your service", "your template", form, "your user")
       .then(() => {
         showToast("Mensaje enviado con éxito.");
         form.reset();

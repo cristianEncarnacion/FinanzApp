@@ -22,11 +22,10 @@
 
 - **Frontend**:
   - [React.js](https://reactjs.org/)
-  - [Swal.fire](https://sweetalert2.github.io/)
+  - [TypeScript](https://www.typescriptlang.org/) 
 - **Backend**: [Supabase](https://supabase.io/) como servicio de backend completo.
 - **Estilos**:
-  - CSS para personalización.
-  - Bootstrap para diseño responsivo.
+  - Tailwind
 
 ## 📂 Estructura del Proyecto
 
